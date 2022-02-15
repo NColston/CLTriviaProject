@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{39607DED-9A05-47F4-9F0A-F5164CED62BF}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="CLProject2022/Program.cs">
+    <Files>
+      <File FileName="CLProject2022/Program.cs" Line="11" Column="21" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="CLProject2022" expanded="True">
+            <Node name="CLProject2022" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.CLProject2022 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
