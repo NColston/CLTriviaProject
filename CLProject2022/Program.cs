@@ -94,7 +94,33 @@ namespace CLProject2022
             Console.Clear();
 
             Console.WriteLine("Question 3: ");
-            Console.WriteLine("Name one of the 10 most popular dog breads: ");
+            Console.WriteLine("Enter the Tempurature (F) where Fahrenheit and Celcius are equal: ");
+            
+     
+            Console.WriteLine("Enter Fahrenheit Temperature:");
+            double Fahrenheit = Convert.ToDouble(Console.ReadLine()); ;
+            double Celsius = (Fahrenheit - 32) * 5 / 9;
+            Console.WriteLine("The converted Celsius temperature is:" + Celsius);
+            double answer3 = -40;
+
+            if (answer3 == Celsius)
+            {
+                Console.WriteLine("Correct!");
+            }
+            else
+            {
+                Console.WriteLine("Wrong!");
+            }
+
+            Console.ReadKey();
+            Console.Clear();
+
+
+            
+
+
+
+
 
 
 
