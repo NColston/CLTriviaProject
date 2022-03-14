@@ -56,6 +56,8 @@ namespace CLProject2022
         private static void PlayGame()
         {
             Console.Clear();
+
+            //question 1
             Console.WriteLine(" Question 1: ");
             Console.WriteLine(" 6 / 3(3+1)");
             Console.WriteLine("a: 8");
@@ -77,6 +79,7 @@ namespace CLProject2022
             Console.ReadKey();
             Console.Clear();
 
+            //question 2
             Console.WriteLine("Question 2: ");
             Console.WriteLine("The word 'onomatapia' is spelled incorrectly here. Please spell it correctly: ");
             string answer2 = Console.ReadLine();
@@ -93,6 +96,7 @@ namespace CLProject2022
             Console.ReadKey();
             Console.Clear();
 
+            //question 3
             Console.WriteLine("Question 3: ");
             Console.WriteLine("Enter the Tempurature (F) where Fahrenheit and Celcius are equal: ");
             
@@ -115,14 +119,31 @@ namespace CLProject2022
             Console.ReadKey();
             Console.Clear();
 
+            //question 4
+            Random rd = new Random();
+            int randomNum = rd.Next(1, 9);
 
+            Console.WriteLine("Question 4: ");
+            Console.WriteLine("What is the answer to question 1 if you add " + randomNum );
+            double answer4 = Convert.ToDouble(Console.ReadLine());
+            int correctAnswer4 = 8 + randomNum;
+
+            if (answer4 == correctAnswer4)
+            {
+                Console.WriteLine("Correct!");
+            }
+            else
+            {
+                Console.WriteLine("wrong!");
+            }
+
+            Console.ReadKey();
+            Console.Clear();
+
+            //question 5
+            Console.WriteLine("Question 5: ");
+            Console.WriteLine("Name one of the top 10 most popular dog breads");
             
-
-
-
-
-
-
 
 
 
@@ -136,13 +157,14 @@ namespace CLProject2022
             Console.Clear();
        
             //show score somehow
-            //return to menu somehow
+          
         }
 
     }
-   
+
 }
             
+
 
 
         
