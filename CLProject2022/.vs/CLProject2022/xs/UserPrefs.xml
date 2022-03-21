@@ -1,7 +1,8 @@
-﻿<Properties StartupConfiguration="{39607DED-9A05-47F4-9F0A-F5164CED62BF}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="CLProject2022/Program.cs">
+﻿<Properties StartupConfiguration="{93FF363D-426E-4492-B5C7-90E7064E5799}|Default">
+  <MonoDevelop.Ide.Workbench>
     <Files>
-      <File FileName="CLProject2022/Program.cs" Line="11" Column="21" />
+      <File FileName="Program.cs" Line="122" Column="1" />
+      <File FileName="score.cs" Line="12" Column="6" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -16,7 +17,7 @@
     </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.CLProject2022 FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.ItemProperties.CLProject2022 PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
